@@ -1,0 +1,176 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=EB+Garamond:wght@400;500;600&family=Lobster&family=Montserrat:wght@400;500&family=Poppins:ital,wght@0,700;1,400&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=EB+Garamond:wght@400;500;600&family=Lobster&family=Montserrat:wght@400;500&family=Poppins:ital,wght@0,700;1,400&family=Ubuntu:wght@400;700&display=swap');
+*{
+    font-family: "Montserrat",sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+#nav_bar{
+    background-color: white;
+    color: black;
+    padding: 40px 0px;
+    position: sticky;
+    font-size: 20px;
+
+
+}
+.container .navbar-brand{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    
+}
+
+.nav-item{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.nav-item .nav-link{
+    padding-right: 30px;
+}
+/* .nav-item a:hover{
+    color: #12be12;
+    border-bottom: 2px solid  #12be12;; */
+
+ .main{
+    background: url(/assests/images/office-581131_1920.jpg)no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding-top: 7rem;
+    
+
+}
+
+.txt_area{
+    margin-left: 50px;
+    justify-content: center;
+    color: white;
+
+}
+.txt_area h1{
+   font-size: 20px;
+}
+.txt_area span{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#button_model{
+    margin-top: 20px;
+    margin-left: 53px;
+    font-size: 20px;
+    font-style: lowercase;
+}
+#button_model a{
+  text-decoration: none;
+  color: white;
+}
+#button_model a:hover{
+    color: rgb(0, 0, 0);
+
+}
+#button_model h4{
+    color: aliceblue;
+    margin-right: 20px;
+}
+.main .text_area h5{
+    padding-right: 30px;
+    color: aliceblue;
+}
+.lab{
+    display:flex ;
+    align-items: center;
+}
+#lab1{
+    color: aliceblue;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+   
+
+}
+#lab1 a{
+    text-decoration: none;
+    color: aliceblue;
+     
+}
+#lab1 a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-bottom: 2px solid green;
+    
+}
+
+/* card */
+.col-md-4{
+    padding: 20px;
+    width: 50%;
+    min-height: 400px;
+}
+.container .card-img-top{
+    width: 40%;
+    height: 40%;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.card-body .card-title1{
+    color: rgb(4, 76, 15);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left:120px ;
+}
+.card-body .card-title{
+    color: rgb(4, 76, 15);
+    font-weight: bolder;
+    font-size: 20px;
+    /* padding-top: 10px; */
+    margin-left:120px ;
+}
+.card-text{
+    color: black;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.container .row{
+    position: relative;
+   top:-60px;
+    border: none;
+    margin-bottom: 90px;
+   border-radius: 20px;
+   
+}
+#ctn{
+    padding-top: 40px;
+}
+#ctn2 h1{
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+#ctn p{
+    font-size: 25px;
+}
+.img-fluid{
+    border-radius: 200px 0px 200px 200px ;
+}
+.button_ss{
+    border-radius: 1000%;
+}
+
+/* ctn 3 */
+
+#ctn3{
+    padding-top: 100px;
+}
+#down_bt{
+    padding-top: 90px;
+}
